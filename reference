@@ -1,1 +1,9 @@
 Excel to Json converter: https://csvjson.com/csv2json
+
+To clone project from git:
+Copy link
+
+goto command prompt-> cd "Path"-> git clone "copied link"
+folder will be copied to the path
+We can open in our IDE
+
