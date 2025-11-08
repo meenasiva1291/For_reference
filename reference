@@ -10,4 +10,13 @@ We can open in our IDE
 Robot framework: https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 https://docs.robotframework.org/docs
 
+Jenkins Architecture:
+
+Jenkins Master > sitting in main office
+|
+|
+(Agents/ Slaves)
+Build executor (10 jobs)
+
+
 
