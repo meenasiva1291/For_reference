@@ -80,6 +80,31 @@ jenkins
 Meenakshisivasankaran
 Meenu12_91
 
+http://localhost:8081/
+
+paste below in build steps command
+echo Creating virtual environment...
+
+"C:\Users\leema\AppData\Local\Programs\Python\Python314\python.exe" -m venv venv
+
+echo Activating environment...
+
+call venv\Scripts\activate
+
+echo Installing dependencies...
+
+python -m pip install --upgrade pip
+
+pip install -r requirements.txt
+
+echo Installing Allure plugin...
+
+pip install allure-pytest
+
+echo Running tests...
+
+pytest --alluredir=allure-results
+
 
 
 
